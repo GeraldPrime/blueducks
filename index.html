@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- background: linear-gradient(135deg, rgba(102, 126, 234, 0.9), rgba(118, 75, 162, 0.9)), url(images/techman.jpg); -->
     <title>BlueDucks Limited &mdash; Software Development Company</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
     
     
     <style>
@@ -242,11 +244,11 @@ html, body {
                     <li class="active">
                       <a href="index.html">Home</a>
                     </li>
-                    <li><a>About Us</a></li>
-                    <li><a>Services</a></li>
-                    <li><a>Academy</a></li>
-                    <li><a>Booking</a></li>
-                    <li><a>Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="academy.html">Academy</a></li>
+                    <!-- <li><a>Booking</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
                   </ul>
                 </div>
               </nav>
@@ -379,7 +381,7 @@ html, body {
                      
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
-                                <p>Our headquarters is strategically located in Enugu, Nigeria, serving clients across Africa and internationally. We leverage our local presence to understand regional needs while maintaining global standards in software development and training.</p>
+                                <p>Our headquarters is strategically located At No. 10 Ajali Cresent, Independence layout, Enugu, Nigeria, serving clients across Africa and internationally. We leverage our local presence to understand regional needs while maintaining global standards in software development and training.</p>
                             </div>
                         </div>
                    
@@ -656,6 +658,37 @@ html, body {
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/main.js"></script>
+  <button id="backToTopBtn" class="btn btn-primary" style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1050;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        font-size: 18px;
+        border: none;
+      " title="Back to Top">
+    <i class="icon-chevron-up" style="font-weight: bold"></i>
+  </button>
+
+  <script>
+    // Back to top button functionality
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backToTopBtn").style.display = "block";
+      } else {
+        document.getElementById("backToTopBtn").style.display = "none";
+      }
+    };
+
+    document.getElementById("backToTopBtn").onclick = function() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
     
   </body>
 </html>

@@ -1,0 +1,683 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Academy &mdash; BlueDucks Ltd</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+
+ <style>
+    .course-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .course-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    
+    .course-icon {
+      font-size: 2.5rem;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+    
+    .course-status {
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+    
+    .status-open {
+      background-color: #d4edda;
+      color: #155724;
+    }
+    
+    .status-starting {
+      background-color: #fff3cd;
+      color: #856404;
+    }
+    
+    .course-detail {
+      font-size: 0.9rem;
+      color: #6c757d;
+    }
+    
+    .enroll-btn {
+      background-color: #007bff;
+      border-color: #007bff;
+      padding: 8px 20px;
+      font-size: 0.9rem;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+    }
+    
+    .enroll-btn:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+      transform: translateY(-2px);
+    }
+    
+    .online-feature {
+      background: #2c3e50;
+      color: white;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 15px rgba(44, 62, 80, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .online-feature:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(44, 62, 80, 0.2);
+    }
+    
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #3498db;
+    }
+    
+    .benefit-item {
+      padding: 15px;
+      border-left: 3px solid #007bff;
+      margin-bottom: 15px;
+      background: #f8f9fa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <div class="site-navbar-wrap">
+      <div class="site-navbar-top">
+        <div class="container py-3">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <a class="p-2 pl-0"><span class="icon-twitter"></span></a>
+              <a class="p-2 pl-0"><span class="icon-facebook"></span></a>
+              <a class="p-2 pl-0"><span class="icon-linkedin"></span></a>
+              <a class="p-2 pl-0"><span class="icon-instagram"></span></a>
+            </div>
+            <div class="col-6">
+              <div class="d-flex ml-auto">
+                <a href="#" class="d-flex align-items-center ml-auto mr-4">
+                  <span class="icon-envelope mr-2"></span>
+                  <span class="d-none d-md-inline-block">blueducksltd@gmail.com</span>
+                </a>
+                <a href="#" class="d-flex align-items-center">
+                  <span class="icon-phone mr-2"></span>
+                  <span class="d-none d-md-inline-block">+2348062704494</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-navbar">
+        <div class="container py-1">
+          <div class="row align-items-center">
+
+            <div class="col-2">
+              <h1 class="mb-0 site-logo d-flex align-items-center">
+                <a class="d-flex align-items-center text-decoration-none">
+                  <img src="/images/logolong.png" alt="BlueDucks Limited Logo" class="logo-img" style="
+                        height: 45px;
+                        width: auto;
+                        flex-shrink: 0;
+                      " />
+                </a>
+              </h1>
+            </div>
+
+            <div class="col-10">
+              <nav class="site-navigation text-right" role="navigation">
+                <div class="container">
+                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li class="active">
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="academy.html">Academy</a></li>
+                    <!-- <li><a>Booking</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="site-blocks-cover overlay inner-page" style="background-image: url(images/techroom.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-10">
+            <span class="sub-text">Learn • Grow • Excel</span>
+            <h1>BlueDucks Academy</h1>
+            <p class="lead text-white">Transform Your Career with Industry-Leading Tech Education</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Running Courses Section -->
+    <div class="site-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <span class="sub-title">Current Offerings</span>
+            <h2 class="font-weight-bold text-black mb-4">Running Courses</h2>
+            <p class="lead text-dark">
+              Join our active cohorts and start your tech journey today
+            </p>
+          </div>
+        </div>
+        
+        <div class="row">
+          <!-- Course 1: Full-Stack Web Development -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 course-card">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div class="course-icon">
+                    <span class="icon-code"></span>
+                  </div>
+                  <span class="course-status status-open">Enrolling Now</span>
+                </div>
+                <h4 class="mb-3">Full-Stack Web Development</h4>
+                <p class="text-dark mb-3">
+                  Master modern web development with React, Node.js, and database integration. Build real-world applications from concept to deployment.
+                </p>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Duration:</strong> 16 weeks</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Start Date:</strong> Aug 5, 2025</small>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Schedule:</strong> Mon, Wed, Fri</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Time:</strong> 6:00 PM - 8:00 PM</small>
+                  </div>
+                </div>
+                
+                <div class="mb-3">
+                  <small class="course-detail"><strong>Requirements:</strong> Basic computer skills, laptop with internet connection</small>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="font-weight-bold text-primary">₦120,000</span>
+                  <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 2: Mobile App Development -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 course-card">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div class="course-icon">
+                    <span class="icon-mobile"></span>
+                  </div>
+                  <span class="course-status status-starting">Starting Soon</span>
+                </div>
+                <h4 class="mb-3">Mobile App Development</h4>
+                <p class="text-dark mb-3">
+                  Learn Flutter and React Native to build cross-platform mobile apps. Create apps for both iOS and Android with a single codebase.
+                </p>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Duration:</strong> 12 weeks</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Start Date:</strong> Aug 12, 2025</small>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Schedule:</strong> Tue, Thu, Sat</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Time:</strong> 10:00 AM - 12:00 PM</small>
+                  </div>
+                </div>
+                
+                <div class="mb-3">
+                  <small class="course-detail"><strong>Requirements:</strong> Programming basics, laptop, Android Studio setup</small>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="font-weight-bold text-primary">₦100,000</span>
+                  <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 3: Data Science & Analytics -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 course-card">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div class="course-icon">
+                    <span class="icon-bar-chart"></span>
+                  </div>
+                  <span class="course-status status-open">Enrolling Now</span>
+                </div>
+                <h4 class="mb-3">Data Science & Analytics</h4>
+                <p class="text-dark mb-3">
+                  Dive into Python, machine learning, and data visualization. Learn to extract insights from data and build predictive models.
+                </p>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Duration:</strong> 14 weeks</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Start Date:</strong> Aug 19, 2025</small>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Schedule:</strong> Mon, Wed, Fri</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Time:</strong> 2:00 PM - 4:00 PM</small>
+                  </div>
+                </div>
+                
+                <div class="mb-3">
+                  <small class="course-detail"><strong>Requirements:</strong> Basic math knowledge, laptop with Python environment</small>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="font-weight-bold text-primary">₦150,000</span>
+                  <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course 4: UI/UX Design -->
+          <div class="col-lg-6 col-md-6 mb-4">
+            <div class="card border-0 shadow-sm h-100 course-card">
+              <div class="card-body p-4">
+                <div class="d-flex justify-content-between align-items-start mb-3">
+                  <div class="course-icon">
+                    <span class="icon-palette"></span>
+                  </div>
+                  <span class="course-status status-starting">Starting Soon</span>
+                </div>
+                <h4 class="mb-3">UI/UX Design Masterclass</h4>
+                <p class="text-dark mb-3">
+                  Master user interface and experience design. Learn Figma, design thinking, and create stunning digital experiences.
+                </p>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Duration:</strong> 10 weeks</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Start Date:</strong> Aug 26, 2025</small>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Schedule:</strong> Tue, Thu, Sat</small>
+                  </div>
+                  <div class="col-6">
+                    <small class="course-detail"><strong>Time:</strong> 4:00 PM - 6:00 PM</small>
+                  </div>
+                </div>
+                
+                <div class="mb-3">
+                  <small class="course-detail"><strong>Requirements:</strong> Creative mindset, laptop with design software access</small>
+                </div>
+                
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="font-weight-bold text-primary">₦80,000</span>
+                  <button class="btn btn-primary enroll-btn">Enroll Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Online Learning Section -->
+    <div class="site-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <span class="sub-title">Flexible Learning</span>
+            <h2 class="font-weight-bold text-black mb-4">Online Classes Available</h2>
+            <p class="lead text-dark">
+              Experience world-class education from anywhere with our comprehensive online learning platform
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="online-feature text-center">
+              <div class="feature-icon">
+                <span class="icon-laptop"></span>
+              </div>
+              <h4>Interactive Virtual Classes</h4>
+              <p class="mb-0">Join live sessions with real-time interaction, screen sharing, and collaborative coding environments.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="online-feature text-center">
+              <div class="feature-icon">
+                <span class="icon-clock-o"></span>
+              </div>
+              <h4>Flexible Scheduling</h4>
+              <p class="mb-0">Access recorded sessions, attend live classes, and learn at your own pace with 24/7 platform access.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="online-feature text-center">
+              <div class="feature-icon">
+                <span class="icon-users"></span>
+              </div>
+              <h4>Expert Mentorship</h4>
+              <p class="mb-0">Get personalized guidance from industry experts through one-on-one sessions and group mentoring.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <h3 class="font-weight-bold text-black mb-4">Benefits of Online Learning</h3>
+            
+            <div class="benefit-item">
+              <h5 class="mb-2"><span class="icon-check text-primary mr-2"></span>Learn from Anywhere</h5>
+              <p class="mb-0 text-dark">Access quality education from the comfort of your home or office. No geographical limitations.</p>
+            </div>
+            
+            <div class="benefit-item">
+              <h5 class="mb-2"><span class="icon-check text-primary mr-2"></span>Cost-Effective</h5>
+              <p class="mb-0 text-dark">Save on transportation and accommodation costs while getting the same quality education.</p>
+            </div>
+            
+            <div class="benefit-item">
+              <h5 class="mb-2"><span class="icon-check text-primary mr-2"></span>Recorded Sessions</h5>
+              <p class="mb-0 text-dark">Access all class recordings for revision and catch up on missed sessions anytime.</p>
+            </div>
+            
+            <div class="benefit-item">
+              <h5 class="mb-2"><span class="icon-check text-primary mr-2"></span>Interactive Learning</h5>
+              <p class="mb-0 text-dark">Engage in real-time discussions, collaborative projects, and hands-on coding sessions.</p>
+            </div>
+            
+            <div class="benefit-item">
+              <h5 class="mb-2"><span class="icon-check text-primary mr-2"></span>Career Support</h5>
+              <p class="mb-0 text-dark">Get job placement assistance, resume reviews, and interview preparation support.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h4 class="mb-3">Ready to Start Your Online Journey?</h4>
+                <p class="text-dark mb-4">
+                  Join thousands of students who have transformed their careers through our online programs. 
+                  Get started today with a free consultation session.
+                </p>
+                
+                <div class="mb-4">
+                  <h6 class="font-weight-bold">What you get:</h6>
+                  <ul class="list-unstyled text-dark">
+                    <li><i class="icon-check text-primary mr-2"></i>Access to live and recorded classes</li>
+                    <li><i class="icon-check text-primary mr-2"></i>Digital course materials and resources</li>
+                    <li><i class="icon-check text-primary mr-2"></i>Project-based learning assignments</li>
+                    <li><i class="icon-check text-primary mr-2"></i>Certificate upon completion</li>
+                    <li><i class="icon-check text-primary mr-2"></i>Lifetime access to course materials</li>
+                  </ul>
+                </div>
+                
+                <div class="text-center">
+                  <button class="btn btn-primary btn-lg mb-3">Enroll in Online Classes</button>
+                  <p class="text-muted small">Start your transformation today</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="site-section" style="background-image: url('images/group.jpg'); background-size: cover; background-position: center; position: relative;">
+      <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5);"></div>
+      <div class="container" style="position: relative; z-index: 2;">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="font-weight-bold text-white mb-4">Transform Your Career Today</h2>
+            <p class="lead text-white mb-5">
+              Join BlueDucks Academy and become part of the next generation of tech professionals. 
+              Start your journey with industry-leading instructors and hands-on projects.
+            </p>
+            <div class="row justify-content-center">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <button class="btn btn-light btn-lg btn-block">View All Courses</button>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <button class="btn btn-outline-light btn-lg btn-block">Schedule Consultation</button>
+                  </div>
+                </div>
+                <div class="mt-4">
+                  <p class="text-white">
+                    <span class="icon-phone mr-2"></span>
+                    Call us at +2348062704494 or email blueducksltd@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="row mb-5">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Quick Links</h3>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Academy</a></li>
+                  <li><a href="#">About Us</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Booking</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <!-- <div class="col-lg-4">
+            <div class="mb-5">
+              <h3 class="footer-heading mb-4">Recent Projects</h3>
+              <div class="block-25">
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <a href="#" class="d-flex">
+                      <figure class="image mr-4">
+                        <img src="images/hero_bg_1.jpg" alt="" class="img-fluid">
+                      </figure>
+                      <div class="text">
+                        <span class="small text-uppercase date">Jan 8, 2025</span>
+                        <h3 class="heading font-weight-light">E-commerce Platform Launch for Retail Client</h3>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="#" class="d-flex">
+                      <figure class="image mr-4">
+                        <img src="images/hero_bg_1.jpg" alt="" class="img-fluid">
+                      </figure>
+                      <div class="text">
+                        <span class="small text-uppercase date">Jan 5, 2025</span>
+                        <h3 class="heading font-weight-light">Mobile Banking App Development Completed</h3>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="mb-3">
+                    <a href="#" class="d-flex">
+                      <figure class="image mr-4">
+                        <img src="images/hero_bg_1.jpg" alt="" class="img-fluid">
+                      </figure>
+                      <div class="text">
+                        <span class="small text-uppercase date">Jan 2, 2025</span>
+                        <h3 class="heading font-weight-light">New Python Django Bootcamp Enrollment Open</h3>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="mb-5">
+              <h3 class="footer-heading mb-2">Stay Connected</h3>
+              <p>Subscribe to our newsletter for the latest tech insights, training updates, and project showcases.</p>
+
+              <form action="#" method="post">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-white text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="footer-heading mb-4">Follow Us</h3>
+                <div>
+                  <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+                  <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <p>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> BlueDucks Limited. All rights reserved | Enugu, Nigeria
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
+  <button id="backToTopBtn" class="btn btn-primary" style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1050;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        font-size: 18px;
+        border: none;
+      " title="Back to Top">
+    <i class="icon-chevron-up" style="font-weight: bold"></i>
+  </button>
+
+  <script>
+    // Back to top button functionality
+    window.onscroll = function() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backToTopBtn").style.display = "block";
+      } else {
+        document.getElementById("backToTopBtn").style.display = "none";
+      }
+    };
+
+    document.getElementById("backToTopBtn").onclick = function() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    };
+  </script>
+
+</body>
+
+</html>
